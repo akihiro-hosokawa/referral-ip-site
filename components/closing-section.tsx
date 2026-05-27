@@ -7,8 +7,9 @@ export function ClosingSection() {
         <div className="flex flex-col items-center justify-center gap-4 text-center">
 
           <div className="flex justify-center">
-            <Image
-              src="/image01.jpg"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/referral-ip-site/image01.jpg"
               alt="カジュアル面談イメージ"
               width={600}
               height={400}
